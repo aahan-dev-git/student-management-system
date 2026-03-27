@@ -13,7 +13,7 @@ while True:
         age = int(input("enter age : "))
         marks = int(input("enter marks : "))
         roll_no = int(input("enter roll number : "))
-        s = Student(name,age,roll_no,marks)
+        s = Student(name,age,marks,roll_no)
         manager.add_students(s)
     elif user_choice == 2:
         manager.display_students()
